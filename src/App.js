@@ -2,7 +2,6 @@ import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Animes from "./pages/Animes";
 import Mangas from "./pages/Mangas";
-import About from "./pages/About";
 import Favourites from "./pages/Favourites";
 
 const App = () => {
