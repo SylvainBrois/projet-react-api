@@ -1,0 +1,18 @@
+.pagination {
+  display: inline-flex;
+  button {
+    align-self: center;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    border-radius: 30px;
+    width : 50px;
+    height : 50px;
+
+  }
+   button:hover{
+     transform: scale(1.1);
+     color : deepskyblue;
+     border-color: deepskyblue;
+   }
+
+}
