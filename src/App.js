@@ -12,7 +12,6 @@ const App = () => {
       <Route path="/animes" element={<Animes/>}/>
       <Route path="/mangas" element={<Mangas/>}/>
       <Route path="/fav" element={<Favourites/>}/>
-      <Route path="/about" element={<About/>}/>
       <Route path="*" element={<Animes/>}/>
     </Routes>
     </BrowserRouter>
