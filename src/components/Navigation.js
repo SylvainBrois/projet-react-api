@@ -14,6 +14,9 @@ const Navigation = () => {
     <NavLink to="/fav" className={(nav) => (nav.isActive ? "nav-active" : "")} end>
         <li>Favourites</li>
     </NavLink>
+    <NavLink to="/askgpt" className={(nav) => (nav.isActive ? "nav-active" : "")} end>
+        <li>AskGPT</li>
+    </NavLink>
 </ul>
             
         </div>
